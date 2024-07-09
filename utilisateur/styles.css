@@ -1,0 +1,432 @@
+/*style de la page index et inscrire*/
+#interface1{
+  border: 1px solid black;
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+  padding: 3%;
+  box-shadow: 0 5px 8px 0  black;
+  border-radius: 3%;
+  background-color: white;
+}
+#interface2{
+    border: 1px solid black;
+    width: 50%;
+    height: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    padding: 3%;
+    box-shadow: 0 5px 8px 0  black;
+    border-radius: 3%;
+    background-color: white;
+}
+
+
+/*style de la page  pwdoblier*/
+#interfacepwd{
+    border: 1px solid black;
+    width: 45%;
+    height: 400px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 3%;
+    box-shadow: 0 5px 8px 0  black;
+    border-radius: 3%;
+    background-color: white;
+}
+/*style de logo fste*/
+#imgfste{
+    max-width: 40%;
+    margin-top: 5%;
+    
+}
+
+/* pour mettre style a les inputs et les button des pages index et inscrire*/
+#page_principale1{
+    margin-left: 45%;
+    margin-top: -45%;
+    width: 25%;
+    height: 15%;
+    padding: 5%;
+}
+#page_principale2{
+  margin-left: 40%;
+  margin-top: -50%;
+  width: 30%;
+  height: 10%;
+  padding: 10%;
+}
+/* pour mettre style a les inputs et les buttons de pages pwdoblier*/
+#pwdtab{
+    margin-left: 50%;
+    margin-top: -35%;
+}
+#btn_annuler{
+  margin-right: 80%;
+}
+/*padding des cellule de table */
+td{
+    padding: 3%;
+    
+}
+/*style des inputs de toutes les pages*/
+.entrer{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 125%;
+    padding: 3%;
+}
+/* style de les buttons de toutes les pages */
+ .btn1{
+  padding: 3%;
+
+}
+.btn2{
+  padding: 3%;
+
+}
+
+/*pour le mot de passe oublier*/
+a{
+    padding-left: 60%;
+}
+/*pour mettre les icones à l'intérieur des inputs de la page index*/
+.input-icone i{
+    position:relative; left: 15px; padding:9px 8px; color:black;
+ }
+ /* pour le style de label des pages inscrire et pwdoblier*/
+ #message{
+     background-color: #ffb266;
+     padding: 3%;
+ }
+ #flex {
+	display: flex;
+}
+
+div + div {
+	display: flex;
+	flex-direction: column;
+}
+
+/* small screens */
+@media  (max-width: 950px) {
+	
+   #interface{
+       width: 90%;
+       height: 300px;
+   }
+
+}
+/*styles de la pges connexion*/
+body{
+    background-color: white;
+}
+.table_information{
+
+  margin-left: 20%;
+ margin-top: -15%;
+    box-shadow: 0 1px 1px 0  black;
+    width: 63%;
+    
+    
+}
+.titre{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(216, 67, 13);
+    width: 60%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 3%;
+    
+}
+.donnee{
+    width: 30%;
+    padding: 2%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.infos{
+    width: 50%;
+    color:#011924;
+    font-weight: bold;
+    padding: 2%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#bare_icones{
+    width: 100%;
+    height:55px;
+    background-color: #0c8cc4;
+}
+#imgbare{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 40%; 
+    margin-right: 1%;
+    padding: 8px;
+    border-radius: 10%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 8px;
+    margin-right: 1%;
+    border-radius: 10%;
+  }
+  .fa-instagram {
+    background: #b10e5a;
+    color: white;
+    padding: 8px;
+    margin-right: 1%;
+    border-radius: 10%;
+  }
+  .fa-youtube {
+    background: red;
+    color: white;
+    padding: 8px;
+    margin-right: 1%;
+    border-radius: 10%;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+    padding: 8px;
+    margin-right: 1%;
+    border-radius: 10%;
+  }
+  #bare_icones a:hover{
+      transform:scale(2);
+      transition: 0.1s; 
+  }
+  #bare_icones a {
+    display:inline-block;
+    margin-top: 1%;
+  }
+  #menu_user{
+    width: 100%;
+    height:55px;
+    background-color:#0c8cc4;
+
+}
+.menus{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+  #menu_user #situation_A{
+    padding-left:1%;
+    padding-right: 1%;
+}
+  #menu_user a {
+    display: inline-block;
+    min-width: 120px;
+    margin: 0.5rem;              
+    padding: 0.4rem 0;         
+    text-align: center;              
+    color: #fff;                  
+    text-decoration: none;               
+    border-radius: 4px;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large; 
+  }
+  #menu_user a:hover {
+    background-color: #66b2ff;
+  color: rgb(216, 67, 13);
+  font-size: 120%;
+  }
+ 
+#page_acc{
+    background-image: url('les images/Acceuil.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 13%;
+    padding: 15%;
+    font-size: 300%;
+    padding-left: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: rgb(236, 121, 55);
+    
+}
+#page_acc {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 200%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+section{
+    background-color:#eee;
+    margin-left: 25%;
+    margin-right: 25% ;
+}
+.img_profil_user {
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 35%;
+    padding-top: 2%;
+}
+.informations_user  h3,h4 {
+    
+    text-align: center;
+    padding: 2%;
+}
+.afficher_img_profil{
+    margin-left: 40%;
+    margin-right: 40% ;
+    border: 1px solid black;
+    width: 19%;
+}
+#inter_contact{
+    padding: 5%;
+    margin-top: 20%;
+}
+.Cinfos{
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #0c8cc4;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.input_infos{
+    border-radius: 3%;
+    padding: 3%;
+    border: 1px solid black;
+
+}
+
+.btn_contact .input_infos{
+    background-color: #0c8cc4;
+    margin: 2%;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border: 0px;
+    width: 30%;
+    margin-left: 40%;
+}
+.pwd1{
+  margin-left: 35%;
+  margin-top: -40%;
+  color: green;
+  font-size: large;
+}
+.pwd2{
+  margin-left: 40%;
+  margin-top: -40%;
+  color: red;
+  font-size: large;
+
+}
+
+#photo{
+  width: 70%;
+  height: 45px;
+ margin-left: 85%;
+ margin-top: -3%;
+ border-radius: 50%;
+}
+.photo_br{
+    margin-left: 90%;
+    margin-top: -3%;
+    color: white;
+    font-size: smaller;
+}
+
+div.gallery {
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  padding: 5%;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.copyright{
+    color: black;
+    margin-top: 30%;
+    font-size: large;
+    padding: 2%;
+    
+}
+.upload{
+    width: 125px;
+    margin-left: 70%;
+   margin-top: 20%;
+  }
+  
+  .upload img{
+   
+    border: 2px solid black;
+    margin-left: 6%;
+
+  }
+  
+  .upload .round{
+    bottom: 0;
+   margin: 5%;
+    right: 0;
+    background: #00B4FF;
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 4%;
+    overflow: hidden;
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .upload .round input[type = "file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
+  
+  input[type=file]::-webkit-file-upload-button{
+      cursor: pointer;
+  }
+  .msg_email{
+    font-size: large;
+  }
